@@ -1,0 +1,6 @@
+endpoints:
+  metrics:
+    enabled: true
+management:
+  security:
+    enabled: false
