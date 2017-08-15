@@ -21,9 +21,12 @@ public class DemoApplication {
 
 
     private static final StatsDClient statsd = new NonBlockingStatsDClient(
-            "mip.test",                          /* prefix to any stats; may be null or empty string */
-            "localhost",                        /* common case: localhost */
-            8125,                                 /* port */
+            /* prefix to any stats; may be null or empty string */
+            "mip.test",
+            /* common case: localhost */
+            "localhost",
+            /* port */
+            8125,
             /* Datadog extension: Constant tags, always applied */
             "isMipTest:true");
 
